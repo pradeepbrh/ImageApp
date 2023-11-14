@@ -25,3 +25,5 @@ D:\Projects\Practice Projects\Learning\ImageApp\obj\Debug\net6.0\refint\ImageApp
 D:\Projects\Practice Projects\Learning\ImageApp\obj\Debug\net6.0\ImageApp.pdb
 D:\Projects\Practice Projects\Learning\ImageApp\obj\Debug\net6.0\ImageApp.genruntimeconfig.cache
 D:\Projects\Practice Projects\Learning\ImageApp\obj\Debug\net6.0\ref\ImageApp.dll
+D:\Projects\Practice Projects\Learning\ImageApp\bin\Debug\net6.0\Microsoft.Practices.ServiceLocation.dll
+D:\Projects\Practice Projects\Learning\ImageApp\bin\Debug\net6.0\XAct.Core.PCL.dll
