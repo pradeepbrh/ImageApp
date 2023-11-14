@@ -8,9 +8,9 @@ namespace ImageApp
 {
     internal class Constant
     {
-        public static string OUTPUTPATH = @"F:\Personal\PICTURE WORLD - ALL MAIL BACKUP\OUTPUT_IMAGE_PATH\";
-        public static string MainDirectoryImage = @"F:\Personal\PICTURE WORLD - ALL MAIL BACKUP\INPUT\";
-        public static string MainDirectoryVideo = @"F:\Personal\PICTURE WORLD - ALL MAIL BACKUP\OUTPUT_IMAGE_PATH";
+        public static string OUTPUTPATH = @"F:\Personal\Liza Google\OUTPUT_IMAGE_PATH\";
+        public static string MainDirectoryImage = @"F:\Personal\Liza Google\INPUT\";
+        public static string MainDirectoryVideo = @"F:\Personal\Liza Google\OUTPUT_IMAGE_PATH";
         public static string[] videoextensionList = new string[] {
                     ".webm",
                     ".mkv" ,

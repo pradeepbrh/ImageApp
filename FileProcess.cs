@@ -52,7 +52,7 @@ namespace ImageApp
             //{
             //    DeleteDuplicateImages(_dir);
             //}
-
+            //     DuplicateFilesFinder.FindDuplicatePhotos(Constant.OUTPUTPATH);
 
             Console.WriteLine("Press Key to stop");
             Console.ReadLine();
@@ -100,12 +100,12 @@ namespace ImageApp
                     string _year = namearray[1].Substring(0, 4);
                     string _month = namearray[1].Substring(4, 2);
                     string _date = namearray[1].Substring(6, 2);
-                   // Validator validator = new Validator();
+                    // Validator validator = new Validator();
 
                     //if (!Validator.ValidateDate(Convert.ToInt32(_date), Convert.ToInt32(_month), Convert.ToInt32(_year)))
                     //{
                     //    FileDetails(FileName);
-                        
+
                     //}
 
 
@@ -153,7 +153,7 @@ namespace ImageApp
             }
         }
 
-       public static DateTime GetFileCreationDate(string filePath)
+        public static DateTime GetFileCreationDate(string filePath)
         {
             FileInfo fileInfo = new FileInfo(filePath);
 
@@ -195,20 +195,20 @@ namespace ImageApp
                 //}
                 //else
                 //{
-                    string _dirpath = Constant.OUTPUTPATH + "NOT_Processed" + "\\" + "Duplicate" + "\\" + "ImageDup" + "\\";
-                    if (!Directory.Exists(_dirpath))
-                    {
-                        Directory.CreateDirectory(_dirpath);
-                    }
-                    if (File.Exists(_dirpath + Path.GetFileName(FilePathTo)))
-                    {
-                        File.Delete(_dirpath + Path.GetFileName(FilePathTo));
+                string _dirpath = Constant.OUTPUTPATH + "NOT_Processed" + "\\" + "Duplicate" + "\\" + "ImageDup" + "\\";
+                if (!Directory.Exists(_dirpath))
+                {
+                    Directory.CreateDirectory(_dirpath);
+                }
+                if (File.Exists(_dirpath + Path.GetFileName(FilePathTo)))
+                {
+                    File.Delete(_dirpath + Path.GetFileName(FilePathTo));
 
-                    }
-                    File.Move(FilePathFrom, _dirpath + Path.GetFileName(FilePathTo));
-               // }
+                }
+                File.Move(FilePathFrom, _dirpath + Path.GetFileName(FilePathTo));
+                // }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
