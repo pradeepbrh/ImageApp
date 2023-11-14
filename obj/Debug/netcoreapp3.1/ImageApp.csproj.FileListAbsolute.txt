@@ -1,0 +1,5 @@
+D:\Projects\Practice Projects\Learning\ImageApp\obj\Debug\netcoreapp3.1\ImageApp.csproj.AssemblyReference.cache
+D:\Projects\Practice Projects\Learning\ImageApp\obj\Debug\netcoreapp3.1\ImageApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Practice Projects\Learning\ImageApp\obj\Debug\netcoreapp3.1\ImageApp.AssemblyInfoInputs.cache
+D:\Projects\Practice Projects\Learning\ImageApp\obj\Debug\netcoreapp3.1\ImageApp.AssemblyInfo.cs
+D:\Projects\Practice Projects\Learning\ImageApp\obj\Debug\netcoreapp3.1\ImageApp.csproj.CoreCompileInputs.cache
